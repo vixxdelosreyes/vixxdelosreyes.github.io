@@ -169,7 +169,7 @@ a:focus-visible, button:focus-visible {
   box-shadow: 0 0 28px rgba(116, 217, 174, 0.2), inset 0 0 30px rgba(116, 217, 174, 0.05);
 }
 .skill-icon { width: 96px; height: 96px; object-fit: contain; align-self: center; margin-bottom: 1rem; }
-.skill-name { color: #fff; font-weight: 600; font-size: 1.3rem; text-transform: none; margin-bottom: 1rem; }
+.skill-name { color: #fff; font-weight: 600; font-size: 1.3rem; text-transform: none; margin-bottom: 1rem; line-height: 1.2; }
 .skill-text { color: var(--text-muted); font-size: 0.97rem; line-height: 1.65; margin: 0 0 1.5rem; }
 
 /* Tool row: small logo tiles. Pushed down so the rows and buttons line up across cards */
@@ -248,7 +248,7 @@ a:focus-visible, button:focus-visible {
 .tool-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
 .tool-group { background: #eef2f1; border-radius: 20px; padding: 1.25rem 1.25rem 1rem; }
 .tool-group:last-child { grid-column: 1 / -1; }
-.tool-group h4 { font-size: 0.95rem; font-weight: 600; text-transform: none; margin-bottom: 0.9rem; }
+.tool-group h3, .tool-group h4 { font-size: 0.95rem; font-weight: 600; text-transform: none; margin-bottom: 0.9rem; }
 .tool-row { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .tool-item { width: 68px; display: flex; flex-direction: column; align-items: center; text-align: center; }
 .tool-item .tool-tile { width: 52px; height: 52px; }
@@ -258,7 +258,7 @@ a:focus-visible, button:focus-visible {
 
 .proof-card { display: flex; gap: 1rem; padding: 1.4rem; }
 .proof-card > i { flex: none; width: 48px; font-size: 2rem; text-align: center; color: var(--mint); text-shadow: 0 0 14px rgba(116, 217, 174, 0.5); }
-.proof-card h4 { color: #cfe9df; font-size: 1.02rem; font-weight: 700; text-transform: none; margin-bottom: 0.4rem; }
+.proof-card h3, .proof-card h4 { color: #cfe9df; font-size: 1.02rem; font-weight: 700; text-transform: none; margin-bottom: 0.4rem; }
 .proof-card p { color: var(--text-muted); font-size: 0.88rem; line-height: 1.55; margin: 0; }
 .proof-card strong { color: #fff; }
 
@@ -430,7 +430,7 @@ a:focus-visible, button:focus-visible {
 .tool-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 .tool-card { display: flex; align-items: flex-start; gap: 1rem; padding: 1.25rem; background: #eef2f1; border-radius: 20px; }
 .tool-card .tool-tile { flex: none; width: 56px; height: 56px; }
-.tool-card h4 { font-size: 1.05rem; font-weight: 700; text-transform: none; margin: 0 0 0.35rem; }
+.tool-card h3, .tool-card h4 { font-size: 1.05rem; font-weight: 700; text-transform: none; margin: 0 0 0.35rem; }
 .tool-card p { margin: 0; font-size: 0.92rem; line-height: 1.55; color: #3a4a54; }
 @media (max-width: 575.98px) { .tool-cards { grid-template-columns: minmax(0, 1fr); } }
 
@@ -461,6 +461,9 @@ a:focus-visible, button:focus-visible {
 .site-footer { background: var(--bg); color: #aebcc4; padding: 1.5rem 0 2rem; border-top: 1px solid rgba(116, 217, 174, 0.15); font-size: 0.85rem; line-height: 1.6; }
 .site-footer p { margin: 0 0 0.4rem; }
 .site-footer a { color: var(--mint); }
+.footer-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem; margin-bottom: 0.9rem; }
+.footer-links a { font-weight: 500; text-decoration: none; }
+.footer-links a:hover { text-decoration: underline; }
 .cf-note { margin: 0; font-size: 0.82rem; color: #aebcc4; }
 .coming-soon { color: #5b6b75; font-style: italic; margin: 0; }
 

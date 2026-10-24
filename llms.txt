@@ -4,4 +4,7 @@
 
 ## Site
 
-- [Portfolio home page](https://vixxdelosreyes.github.io/): one-page portfolio with sections for Me, Skillset (SEO, AI Media, Video Editing), and Let's Connect.
+- [Home](https://vixxdelosreyes.github.io/): Vixx Delos Reyes is an SEO professional with 14+ years of hands-on experience in keyword research, technical SEO, AEO and AI media. Includes the Skillset overview and the Let's Talk contact form.
+- [About](https://vixxdelosreyes.github.io/about/): The career behind Vixx Delos Reyes: 14+ years in SEO, now combining core SEO with AEO and AI media.
+- [SEO](https://vixxdelosreyes.github.io/seo/): On-page, off-page and technical SEO, plus AEO work like llms.txt. Tools used and project proof from Vixx Delos Reyes, 14+ years in SEO.
+- [AI Media](https://vixxdelosreyes.github.io/ai-media/): How Vixx Delos Reyes uses AI tools to make images and video for SEO, marketing and sales projects. Tools used and examples.
